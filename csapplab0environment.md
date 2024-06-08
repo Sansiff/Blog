@@ -1,5 +1,5 @@
 ---
-title: CSAPP LAB0 Environment
+title: CSAPP Lab0 Environment
 date: 2024-06-04 14:51:14
 categories: CSAPP
 tags: CSAPP
@@ -8,9 +8,9 @@ typora-root-url: csapplab0environment
 
 ## 资源下载
 
-CSAPP LAB网址：https://csapp.cs.cmu.edu/3e/labs.html
+CSAPP Lab网址：https://csapp.cs.cmu.edu/3e/labs.html
 
-点击对应LAB后面的Self-Study Handout可以下载资源压缩包
+点击对应Lab后面的Self-Study Handout可以下载资源压缩包
 
 ## 环境准备
 
@@ -41,7 +41,20 @@ make btest
 ![](EnvironmentTest.png)
 能够正常运行则说明环境搭建完成
 
+## Lab介绍
+
+- Lab1 datalab：操作bits
+- Lab2 bomblab：拆除一个二进制炸弹
+- Lab3 attacklab：基本的代码注入攻击
+- Lab4 cachelab：实现一个cache并且进行优化
+- Lab5 tshlab：实现一个shell
+- Lab6 malloclab：实现malloc和free
+- Lab7 proxylab：实现一个web proxy
+
+
+
 ## 踩坑
+
 ### 编译代码时报错 gcc: error: unrecognized command line option ‘-m32’
 
 arm版gcc不支持-m32参数，目前没有合理的解决方案，最终选择搭建x86的Ubuntu来完成代码的编译工作

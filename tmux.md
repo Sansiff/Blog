@@ -120,7 +120,7 @@ Tmux 可以将窗口分成多个窗格，每个窗格运行不同的命令。以
 Ctrl+b %     
 
 # 划分上下两个窗格
-Ctrl+b "     
+Ctrl+b \"     
 
 # 光标切换窗格
 Ctrl+b <arrow key> 
